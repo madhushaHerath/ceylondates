@@ -1,6 +1,5 @@
 
-export async function getSLHolidays(year = 2026,API_KEY) {
-    const country = 'LK';
+export async function getSLHolidays(year,API_KEY,country) {
     const url = `https://calendarific.com/api/v2/holidays?api_key=${API_KEY}&country=${country}&year=${year}`;
 
     try {
