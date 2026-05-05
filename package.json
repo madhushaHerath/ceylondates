@@ -1,18 +1,17 @@
 {
   "name": "ceylondates",
   "version": "1.0.0",
+  "description": "A customized Flatpickr for highlighting Sri Lankan holidays",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "L Madusha",
+  "keywords": [
+    "flatpickr",
+    "sri lanka",
+    "holidays",
+    "calendar"
+  ],
+  "author": "L Madhusha Herath",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "dotenv": "^17.4.2"
-  },
   "dependencies": {
     "flatpickr": "^4.6.13"
   }

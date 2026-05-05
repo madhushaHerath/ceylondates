@@ -43,7 +43,6 @@ export class CeylonHolidayPicker {
         }
       }
     };
-    console.log(allOptions);
     this.instance = flatpickr(this.field, allOptions);
   }
   async init() {
@@ -55,7 +54,6 @@ export class CeylonHolidayPicker {
   async getHoliadys(year) {
     if (!this.holidayCache[year]) {
       const response = await getSLHolidays(year, this.apiKey, this.country);
-      console.log(response);
       this.holidayCache[year] = response.map(holiday => ({
         date: holiday.date,
         name: holiday.name
