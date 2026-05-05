@@ -16,7 +16,9 @@ A lightweight, customizable wrapper for **Flatpickr** that automatically highlig
 - Get your API Key from https://calendarific.com/
 
 ## Basic Usage
-import { CeylonHolidayPicker } from 'ceylon-holiday-picker';
+import { CeylonHolidayPicker } from 'ceylondates';
+import "flatpickr/dist/flatpickr.min.css"; //import the flatpickr styles
+import "ceylondates/src/ceylonHoliday.css //import holiday styles
 
 const calanderWithHolidays = new CeylonHolidayPicker({
     field: "#my-input",
